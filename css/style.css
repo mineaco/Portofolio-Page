@@ -1,0 +1,143 @@
+/* Navbar*/
+
+.navbar {
+    background-color:#333;
+    border-radius:0;
+    margin-bottom:0;  
+  }
+  
+  
+  /* Jumbotron*/
+  
+  .jumbotron {
+    background-color:rgba(0,0,0,0.5);
+    text-align:center;
+    margin-top:1.5rem;
+    color:#FAB142;   
+  }
+  
+  div .btn-primary {
+    margin-right:2rem;  
+  }
+  
+  div .btn {
+    padding:1rem 2rem 1rem 2rem;
+    font-size:2rem;
+  }
+  
+  .jumbo {
+    background-color:rgba(15,199,255,0.9);
+    background-image:url(../img/showcase.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+  }
+  
+  /*Services*/
+  
+  div .second {
+    margin:1rem;    
+  }
+  
+   div .services {
+    margin-top:4rem;
+  }
+  
+  #services-title {
+    font-size:4.5rem;
+    color:#4F4F4F;
+    
+  }
+  
+  div .lead {
+    margin-top:1rem;
+    padding-right:1.5rem;
+    padding-left:1.5rem;
+    font-family: 'Fira Sans Condensed', sans-serif;
+    color:#4F4F4F;
+  }
+  
+  div .css{
+    border-left:solid 1px #ccc;
+  }
+  
+  div .responsive {
+    border-left:solid 1px #ccc;
+    border-right:solid 1px #ccc;
+  }
+  
+  
+  /* Contacts*/
+  div #contact {
+    margin-top:5rem;
+    
+  }
+  
+  div .icons {
+    padding-bottom:3rem;
+  }
+  
+  .social {
+    background-color:rgba(249, 168,46,0.9);
+    padding:3rem;  
+  }
+  
+  .social a {
+    color:#333;    
+  }
+  
+  
+  /*Footer*/
+  footer {
+    padding:1.5rem;
+    color:#FFB805;
+    background-color:#6B6B6B;
+    vertical-align:middle;
+  }
+  
+  footer .lead {
+    margin-top:.5rem;
+  }
+  
+  
+  
+  /* Media Queries */
+  
+  @media(max-width:990px) {
+    div .responsive {
+    border-right:none; 
+  }
+    div .bootstrap {
+      padding-left:10.5rem;
+      padding-right:10.5rem;
+      
+    }
+  }
+  
+  @media(max-width:768px) {
+    div .css {
+      border-left:none;
+      border-bottom:solid 1px #ccc;
+    }  
+  
+   div .responsive {
+    border-left:none;
+    border-right:none;
+    border-bottom:solid 1px #ccc;
+  }
+    div .html {
+      border-bottom:solid 1px #ccc;
+    }
+    div .lead {
+    margin-top:1rem;
+    padding-right:3.5rem;
+    padding-left:3.5rem;
+   }
+    
+    .jumbo p{
+      display:none;
+    }
+  }
+    
+    
+    
